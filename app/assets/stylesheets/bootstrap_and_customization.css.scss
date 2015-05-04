@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
 $body-bg:    #DCC6E0;
+$font-family-sans-serif:	'Oswald', 'Helvetica Neue', Helvetical, Arial, sans-serif;
 $navbar-default-bg: #2ECC71;
-$navbar-default-link-color: #E4F1FE;
+$navbar-default-brand-color: #D35400;
 $brand-primary: #03C9A9;
 $jumbotron-bg: #00B16A;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
